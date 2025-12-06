@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+  margin: 0;
+  padding-top: 90px; 
+    background-image: url('best.webp');
+    /* gris + opacity */
+    height: 100vh; /* fullscreen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body::before{
+  content: "";
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.37); /* gris + opacity */
+  inset: 0;
+}
+
+/* navbar  */
+
+.navbar-brand{
+    margin-left: 27px;
+    font-size: 30px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-left: 2px;
+}
+.nav-link:hover {
+  border-bottom:1px solid #e9dacd;
+  width: fit-content;
+  color: #e9dacd !important;
+
+}
+.nav-link.active {
+  color: #EE6E4D !important;
+}
+
+.collapse{
+    margin-right: 27px;
+}
+.btn-sign{
+    color: #EE6E4D;
+    border: #EE6E4D 1px solid;
+    border-radius: 15%;
+}
+.btn-sign:hover{
+    background-color: #EE6E4D;
+    color: black;
+}
